@@ -38,3 +38,15 @@ describe("WelcomePopup Component", () => {
     expect(modalElement).toBeNull();
   });
 });
+
+// This component displays information about the company.
+function AboutUs() {
+  return (
+    <div className="container">
+      <div className="about-us">
+        <h1 className="text-center" aria-label="About Us Section">About Us</h1>
+        ...
+      </div>
+    </div>
+  );
+}
